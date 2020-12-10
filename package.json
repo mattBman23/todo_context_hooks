@@ -1,10 +1,13 @@
 {
+  "homepage": "http://mattBman23.github.io/todo_context_hooks",
   "name": "todo_context_hooks",
   "version": "1.0.0",
   "description": "Todo app using context and hooks in javascript",
   "main": "index.js",
   "scripts": {
-    "start": "react-scripts start"
+    "start": "react-scripts start",
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d build"
   },
   "repository": {
     "type": "git",
@@ -34,5 +37,8 @@
       "last 1 firefox version",
       "last 1 safari version"
     ]
+  },
+  "devDependencies": {
+    "gh-pages": "^3.1.0"
   }
 }
