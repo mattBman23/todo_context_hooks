@@ -5,9 +5,10 @@
   "description": "Todo app using context and hooks in javascript",
   "main": "index.js",
   "scripts": {
-    "start": "react-scripts start",
     "predeploy": "npm run build",
-    "deploy": "gh-pages -d build"
+    "deploy": "gh-pages -d build",
+    "start": "react-scripts start",
+    "build": "react-scripts build"
   },
   "repository": {
     "type": "git",
