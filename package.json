@@ -1,0 +1,38 @@
+{
+  "name": "todo_context_hooks",
+  "version": "1.0.0",
+  "description": "Todo app using context and hooks in javascript",
+  "main": "index.js",
+  "scripts": {
+    "start": "react-scripts start"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/mattBman23/todo_context_hooks.git"
+  },
+  "keywords": [],
+  "author": "Matthew Budiman",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/mattBman23/todo_context_hooks/issues"
+  },
+  "dependencies": {
+    "framer-motion": "^2.9.5",
+    "react": "^17.0.1",
+    "react-dom": "^17.0.1",
+    "react-scripts": "^4.0.1",
+    "uuid": "^8.3.2"
+  },
+  "browserslist": {
+    "production": [
+      ">0.2%",
+      "not dead",
+      "not op_mini all"
+    ],
+    "development": [
+      "last 1 chrome version",
+      "last 1 firefox version",
+      "last 1 safari version"
+    ]
+  }
+}
